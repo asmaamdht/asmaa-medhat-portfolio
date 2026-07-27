@@ -1,5 +1,8 @@
+import AppRouter from "./app/routes/AppRouter";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Devfolio</h1>;
+  return <AppRouter />
+    ;
 }
 
 export default App;

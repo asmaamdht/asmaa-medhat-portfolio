@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend Web Development",
+        "description": "Building fast, scalable and responsive web applications using modern frontend technologies.",
+        "icon": "code"
+    },
+    {
+        "id": 2,
+        "title": "React & Next.js Development",
+        "description": "Developing modern SPAs and SSR applications with React, Next.js and TypeScript.",
+        "icon": "react"
+    },
+    {
+        "id": 3,
+        "title": "Responsive UI Development",
+        "description": "Creating responsive, adaptive and pixel-perfect user interfaces for all screen sizes.",
+        "icon": "responsive"
+    },
+    {
+        "id": 4,
+        "title": "API Integration",
+        "description": "Integrating REST APIs with Axios and React Query including caching and server state management.",
+        "icon": "api"
+    },
+    {
+        "id": 5,
+        "title": "Dashboard Development",
+        "description": "Building admin dashboards with authentication, analytics, products, orders and user management.",
+        "icon": "dashboard"
+    },
+    {
+        "id": 6,
+        "title": "Cross Platform Apps",
+        "description": "Developing mobile applications using React Native and Flutter.",
+        "icon": "mobile"
+    },
+    {
+        "id": 7,
+        "title": "Firebase Integration",
+        "description": "Authentication, Firestore database integration and cloud services using Firebase.",
+        "icon": "firebase"
+    },
+    {
+        "id": 8,
+        "title": "Reusable Components",
+        "description": "Designing reusable, maintainable and scalable UI components following clean architecture.",
+        "icon": "components"
+    },
+    {
+        "id": 9,
+        "title": "Performance Optimization",
+        "description": "Improving application performance, loading speed and user experience.",
+        "icon": "performance"
+    },
+    {
+        "id": 10,
+        "title": "Version Control & Workflow",
+        "description": "Professional workflow using Git, GitHub, Swagger, Apidog and modern development tools.",
+        "icon": "git"
+    },
+    {
+        "id": 11,
+        "title": "Progressive Web Apps",
+        "description": "Building installable web applications with offline support, caching and native-like user experience.",
+        "icon": "pwa"
+    }
+]

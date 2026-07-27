@@ -1,1 +1,86 @@
 @import "tailwindcss";
+
+
+@theme {
+    /* Colors */
+    --color-primary: #0f4a45;
+    --color-primary-light: #1d9e75;
+    --color-secondary: #f2a65a;
+
+    --color-background: #f5f2e9;
+    --color-bg-box: rgb(15 74 69 / 10%);
+    --color-surface: #ffffff;
+    --color-bg-footer:#FFFFFF33;
+
+    --color-text: #0d2b2b;
+    --color-text-muted: #3c3c3a;
+
+    /* Shadows */
+    --shadow-card: 0 12px 30px rgba(0,0,0,.08);
+
+    /* Fonts */
+    --font-heading: "Baloo 2", cursive;
+    --font-body: "Poppins", sans-serif;
+    --font-hand: "Caveat", cursive;
+
+     /* Radius */
+    --radius-lg: 0.5rem;
+
+
+      /* Alert Colors */
+
+    --color-alert-bg: #fefce8;
+    --color-alert-border: #fde68a;
+    --color-alert-text: #a16207;
+    --color-alert-icon-bg: #fef3c7;
+}
+
+/* Button Hover */
+@utility btn-primary {
+    @apply inline-flex items-center justify-center rounded-md px-5 py-2.5 font-semibold text-white bg-primary transition-all duration-300;
+
+    &:hover {
+        @apply bg-primary-light;
+    }
+}
+
+@utility bg-primary-gradient {
+    background-image: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+}
+
+@utility bg-dark-gradient {
+    background-image: linear-gradient(135deg, #080614, #0d0a1f, #0a0812);
+}
+
+@utility glass {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(139, 92, 246, 0.15);
+    backdrop-filter: blur(12px);
+}
+
+
+/* Input border */
+@utility glass-border {
+    @apply border border-white/20 dark:border-black/10;
+}
+
+@utility glass-bg {
+    @apply bg-white/20 dark:bg-black/10;
+}
+
+
+/* Container */
+@utility container {
+    margin-inline: auto;
+    padding-inline: 1rem;
+    width: 100%;
+    max-width: 1480px;
+
+    @media (width >= 640px) {
+        padding-inline: 1.5rem;
+    }
+
+    @media (width >= 1024px) {
+        padding-inline: 2rem;
+    }
+}

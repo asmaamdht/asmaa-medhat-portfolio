@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend",
+        "icon": "",
+        "skills": [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "jQuery"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Styling & UI",
+        "icon": "",
+        "skills": [
+            "Tailwind CSS",
+            "Bootstrap",
+            "React Bootstrap",
+            "Ant Design",
+            "SCSS"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "API & State",
+        "icon": "",
+        "skills": [
+            "REST API",
+            "Axios",
+            "React Query",
+            "Swagger",
+            "Apidog"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Mobile",
+        "icon": "",
+        "skills": [
+            "React Native",
+            "Flutter",
+            "Firebase"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Tools",
+        "icon": "",
+        "skills": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Postman",
+            "Vite"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "PWA",
+        "icon": "",
+        "skills": [
+            "Progressive Web Apps",
+            "Service Worker",
+            "Web App Manifest",
+            "Offline Support",
+            "Installable App"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Soft Skills",
+        "icon": "",
+        "skills": [
+            "Problem Solving",
+            "Communication",
+            "Creativity",
+            "Time Management"
+        ]
+    }
+]

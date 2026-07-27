@@ -1,0 +1,77 @@
+import { InfoCard } from "./InfoCard";
+import { Building2, User, CalendarDays, FolderKanban } from "lucide-react";
+import SectionSubHeader from "@/components/common/heading/SectionSubHeader";
+import type { Project } from "../../types/projects.types";
+import Badge from "@/components/ui/Badge/Badge";
+
+const ProjectInfo = ({ project }: { project: Project }) => {
+    return (
+        <div className="flex h-full flex-col rounded-xl bg-white p-6 shadow-lg">
+
+            <div>
+                <SectionSubHeader title={project.title} description={project.subtitle} className="items-start text-left" />
+            </div>
+
+            <div className="my-2 h-px bg-border" />
+
+            <div className="grid grid-cols-2 gap-4">
+                {project.company && (
+                    <InfoCard
+                        icon={<Building2 size={20} />}
+                        title="Company"
+                        value={project.company}
+                    />
+                )}
+
+                {project.role && (
+                    <InfoCard
+                        icon={<User size={20} />}
+                        title="Role"
+                        value={project.role}
+                    />
+                )}
+
+                {project.duration && (
+                    <InfoCard
+                        icon={<CalendarDays size={20} />}
+                        title="Duration"
+                        value={project.duration}
+                    />
+                )}
+
+                {project.category && (
+                    <InfoCard
+                        icon={<FolderKanban size={20} />}
+                        title="Category"
+                        value={project.category}
+                    />
+                )}
+
+            </div>
+
+            {/* Tech Stack */}
+
+            <div>
+
+                <div className="my-6 h-px bg-border" />
+
+                <SectionSubHeader title={"Tech Stack"} titleClassName="text-lg!" className="mb-4!" />
+
+
+                <div className="flex flex-wrap gap-2">
+
+                    {project.technologies.map((tech) => (
+
+                        <Badge
+                            key={tech} label={tech} />
+                    ))}
+
+                </div>
+
+            </div>
+
+        </div>
+    )
+}
+
+export default ProjectInfo
