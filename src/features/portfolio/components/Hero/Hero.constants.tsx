@@ -50,7 +50,7 @@ export const TECH_STACK = [
         icon: <SiRedux className="text-[#764ABC] text-lg" />,
     },
     {
-        name: "React Query",
+        name: "TanStack Query",
         icon: <SiReactquery className="text-[#FF4154] text-lg" />,
     },
     {

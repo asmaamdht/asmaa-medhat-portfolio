@@ -32,7 +32,7 @@
         "skills": [
             "REST API",
             "Axios",
-            "React Query",
+            "TanStack Query",
             "Swagger",
             "Apidog"
         ]

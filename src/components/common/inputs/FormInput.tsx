@@ -5,7 +5,7 @@ import type { FormFieldProps } from "./inputs.types";
 
 const FormInput = ({ placeholder, type = "text", registration, error, }: FormFieldProps) => {
     return (
-        <div>
+        <div className="relative">
             <input
                 type={type}
                 placeholder={placeholder}
@@ -14,7 +14,7 @@ const FormInput = ({ placeholder, type = "text", registration, error, }: FormFie
             />
 
             {error && (
-                <p className="mt-2 text-sm font-body text-red-500">
+                <p className="absolute left-0 mt-1 text-xs font-body text-text-error">
                     {error.message}
                 </p>
             )}

@@ -3,15 +3,20 @@ import type { Service } from "../../types/service.types";
 
 type Props = {
     service: Service;
+    index: number;
 };
 
-const ServiceCard = ({ service }: Props) => {
+const ServiceCard = ({ service, index }: Props) => {
 
     const Icon = serviceIcons[service.icon];
+    const animationDelay = `${index * 3}s`;
 
     return (
 
-        <div className="group relative overflow-hidden rounded-xl bg-white backdrop-blur-xl p-4 shadow-lg">
+        <div 
+            className="group relative overflow-hidden rounded-xl bg-services-animated backdrop-blur-xl p-4 shadow-lg"
+            style={{ animationDelay }}
+        >
 
             <div
                 className=" absolute -right-10 -top-10 h-20 w-20 rounded-full bg-primary/10 blur-3xl opacity-0 "

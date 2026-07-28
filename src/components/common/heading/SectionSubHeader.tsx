@@ -16,7 +16,7 @@ const SectionSubHeader = ({
 }: SubHeaderProps) => {
     return (
         <div
-            className={`flex flex-col gap-2 mb-8  ${className}`}
+            className={`flex flex-col gap-2 mb-4  ${className}`}
         >
             <h3
                 className={`text-2xl font-semibold font-heading text-text ${titleClassName ?? ""}`}>

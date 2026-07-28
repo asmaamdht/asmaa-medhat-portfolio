@@ -29,11 +29,12 @@ const ServicesSection = ({ limit }: ServicesSectionProps) => {
 
                 <div className=" mt-14 grid gap-7 md:grid-cols-2 xl:grid-cols-3">
 
-                    {displayedServices.map((service) => (
+                    {displayedServices.map((service, index) => (
 
                         <ServiceCard
                             key={service.id}
                             service={service}
+                            index={index}
                         />
 
                     ))}

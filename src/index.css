@@ -14,6 +14,7 @@
 
     --color-text: #0d2b2b;
     --color-text-muted: #3c3c3a;
+    --color-text-error:#880D1E;
 
     /* Shadows */
     --shadow-card: 0 12px 30px rgba(0,0,0,.08);
@@ -33,6 +34,21 @@
     --color-alert-border: #fde68a;
     --color-alert-text: #a16207;
     --color-alert-icon-bg: #fef3c7;
+
+    /* Bg Animation */
+
+    --animate-gradient: gradient-shift 12s ease infinite;
+
+    @keyframes gradient-shift {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+    }
+}
+
+@utility bg-services-animated {
+    background: linear-gradient(270deg, #f5f2e9, #dceae8, #faefe2, #e1efe8, #f5f2e9);
+    background-size: 400% 400%;
+    animation: var(--animate-gradient);
 }
 
 /* Button Hover */
@@ -82,5 +98,13 @@
 
     @media (width >= 1024px) {
         padding-inline: 2rem;
+    }
+}
+
+@utility no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
     }
 }

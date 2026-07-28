@@ -20,7 +20,7 @@
     {
         "id": 4,
         "title": "API Integration",
-        "description": "Integrating REST APIs with Axios and React Query including caching and server state management.",
+        "description": "Integrating REST APIs with Axios and TanStack Query including caching and server state management.",
         "icon": "api"
     },
     {

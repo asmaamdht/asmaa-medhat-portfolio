@@ -4,7 +4,7 @@ import type { FormFieldProps } from "./inputs.types";
 
 const FormTextarea = ({ placeholder, rows = 6, registration, error }: FormFieldProps) => {
     return (
-        <div>
+        <div className="relative">
             <textarea
                 rows={rows}
                 placeholder={placeholder}
@@ -13,7 +13,7 @@ const FormTextarea = ({ placeholder, rows = 6, registration, error }: FormFieldP
             />
 
             {error && (
-                <p className="mt-2 text-sm font-body text-red-500">
+                <p className="absolute left-0 mt-1 text-xs font-body text-text-error">
                     {error.message}
                 </p>
             )}

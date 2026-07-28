@@ -1,69 +1,100 @@
 [
     {
         "id": 1,
-        "title": "Moheet",
-        "subtitle": "Vendor Management Platform",
-        "image": "/images/projects/moheet/vendorDas.png",
-        "images": [
-            "/images/projects/moheet/dashboard.jpeg",
-            "/images/projects/moheet/orders.jpeg",
-            "/images/projects/moheet/products.jpeg"
-        ],
-        "description": "A complete vendor management platform that enables vendors to manage products, orders, categories, and reports through a modern and responsive dashboard. It empowers business owners to manage multi-store types like supermarkets and pharmacies while organizing employee roles and schedules seamlessly.",
-        "role": "Frontend Developer",
-        "company": "Galazies Technology",
-        "duration": "5 Months",
-        "category": "Company",
-        "technologies": [
-            "React",
-            "TypeScript",
-            "Tailwind CSS",
-            "Axios",
-            "React Query"
-        ],
-        "features": [
-            "Authentication",
-            "Dashboard",
-            "Products Management",
-            "Orders Management",
-            "Categories",
-            "Reports",
-            "Responsive Design"
-        ],
-        "githubUrl": "",
-        "liveUrl": "",
-        "video": "/videos/moheet.mp4",
-        "isConfidential": true
-    },
-    {
-        "id": 2,
-        "title": "EvTick",
+        "title": "EvtickWeb",
         "subtitle": "Event Booking Platform",
-        "image": "/images/projects/moheet/evtick.png",
+        "image": "/images/projects/evTick/evTickWeb/hero.png",
         "images": [
-            "/images/projects/moheet/evtick.png",
-            "/images/projects/moheet/dashboard.jpeg",
-            "/images/projects/moheet/orders.jpeg"
+            "/images/projects/evTick/evTickWeb/hero.png",
+            "/images/projects/evTick/evTickWeb/events.png",
+            "/images/projects/evTick/evTickWeb/event.png",
+            "/images/projects/evTick/evTickWeb/details.png",
+            "/images/projects/evTick/evTickWeb/buyTicket.png",
+            "/images/projects/evTick/evTickWeb/Checkout.png",
+            "/images/projects/evTick/evTickWeb/pay.png",
+            "/images/projects/evTick/evTickWeb/succe.png",
+            "/images/projects/evTick/evTickWeb/location.png",
+            "/images/projects/evTick/evTickWeb/service.png",
+            "/images/projects/evTick/evTickWeb/contact.png"
         ],
         "description": "Event booking platform with an admin dashboard for managing events, users and ticket reservations. It allows users to search events, choose seats, and book tickets online, while organizers can monitor ticket statistics and manage venue reservations.",
         "role": "Frontend Developer",
         "duration": "3 Months",
-        "category": "Personal",
+        "category": "ITI Graduation Project",
+        "company": "Information Technology Institute (ITI)",
         "technologies": [
             "React",
             "JavaScript",
-            "Tailwind CSS"
+            "Tailwind CSS",
+            "Firebase",
+            "AI Chatbot",
+            "Google Maps API",
+            "React Router",
+            "React Toastify",
+            "Responsive Design"
         ],
         "features": [
             "Authentication",
-            "Events",
+            "Browse Events",
+            "Search & Filters",
+            "Event Details",
+            "Ticket Booking",
+            "Online Payments",
             "Reservations",
-            "Users",
+            "AI Assistant",
+            "User Profile",
             "Dashboard"
         ],
-        "githubUrl": "https://github.com/asmadht/EvTick",
-        "liveUrl": "https://evtick.vercel.app",
+        "githubUrl": "https://github.com/asmaamdht/EvTick-Web",
+        "liveUrl": "https://evtick.vercel.app/",
         "video": "",
+        "isConfidential": false
+    },
+    {
+        "id": 2,
+        "title": "Burgerizza",
+        "subtitle": "Restaurant Ordering & Management Platform",
+        "image": "/images/projects/Burgerizza/hero.png",
+        "images": [
+            "/images/projects/Burgerizza/hero.png",
+            "/images/projects/Burgerizza/offers.png",
+            "/images/projects/Burgerizza/cart.png",
+            "/images/projects/Burgerizza/sign.png",
+            "/images/projects/Burgerizza/register.png",
+            "/images/projects/Burgerizza/checkout.png",
+            "/images/projects/Burgerizza/userOrder.png",
+            "/images/projects/Burgerizza/info.png",
+            "/images/projects/Burgerizza/dash.png",
+            "/images/projects/Burgerizza/menu.png",
+            "/images/projects/Burgerizza/analysis.png",
+            "/images/projects/Burgerizza/reports.png",
+            "/images/projects/Burgerizza/orders.png",
+            "/images/projects/Burgerizza/mess.png"
+        ],
+        "description": "A comprehensive restaurant ordering and management platform built as an ITI graduation project. It features a customer-facing site for browsing menus, customizing and ordering food items (burgers and pizzas), checkout, and order tracking, alongside an administrative dashboard for real-time analytics, sales reports, inventory/order management, and contact message handling. Led the frontend team and designed the complete responsive user interface system using Bootstrap.",
+        "role": "UI Developer & Frontend Team Leader",
+        "duration": "3 Weeks",
+        "category": "ITI Graduation Project",
+        "company": "Information Technology Institute (ITI)",
+        "technologies": [
+            "React",
+            "TypeScript",
+            "Vite",
+            "Bootstrap",
+            "TanStack Query"
+        ],
+        "features": [
+            "Interactive Menu & Category Filtering",
+            "Shopping Cart & Checkout System",
+            "Customer Order History & Status Tracking",
+            "User Registration & Authentication",
+            "Admin Dashboard for Orders & Inventory",
+            "Real-time Analytics & Sales Reports",
+            "Team Leadership & Complete UI Design"
+        ],
+        "githubUrl": "https://github.com/asmaamdht/Burgerizza",
+        "liveUrl": "https://burgerizza-gray.vercel.app/",
+        "video": "https://player.cloudinary.com/embed/?cloud_name=l71f0pi3&public_id=Burgerizza_Video_udjxgy",
         "isConfidential": false
     }
 ]

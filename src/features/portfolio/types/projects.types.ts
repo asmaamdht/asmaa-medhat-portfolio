@@ -16,7 +16,7 @@ export interface Project {
     company?: string;
     duration?: string;
 
-    category: "Company" | "Personal" | "Freelance";
+    category: string;
 
     technologies: string[];
 

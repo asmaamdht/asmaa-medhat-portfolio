@@ -48,7 +48,7 @@ export const skillIcons = {
     Apidog: { icon: TbApi, color: "#3B82F6" },
     "REST API": { icon: TbApi, color: "#10B981" },
     Axios: { icon: SiAxios, color: "#5A29E4" },
-    "React Query": { icon: SiReactquery, color: "#FF4154" },
+    "TanStack Query": { icon: SiReactquery, color: "#FF4154" },
     Git: { icon: SiGit, color: "#F05032" },
     GitHub: { icon: SiGithub, color: "#181717" },
     "VS Code": { icon: VscVscode, color: "#007ACC" },

@@ -44,7 +44,7 @@ const ContactForm = () => {
     return (
         <form
             onSubmit={handleSubmit(onSubmit)}
-            className="space-y-5 rounded-xl p-4 sm:p-8"
+            className="space-y-6 rounded-xl p-4 sm:p-8"
         >
             <FormInput
                 type="email"
