@@ -30,7 +30,7 @@ const ProjectCard = ({ project }: Props) => {
 
             {/* Description */}
 
-            <div className="flex items-center justify-between p-4 bg-bg-box rounded-t-2xl">
+            <div className="flex items-center justify-between p-4 bg-bg-box ">
 
                 <div>
 
