@@ -1,10 +1,28 @@
 import { useState } from "react";
 import ProjectMediaUpper from '../../components/ProjectsDetails/ProjectMediaUpper'
 import ProjectMediaLower from '../../components/ProjectsDetails/ProjectMediaLower'
+import ProjectMobileMedia from '../../components/ProjectsDetails/ProjectMobileMedia'
 import ProjectInfo from '../../components/ProjectsDetails/ProjectInfo'
 // import ProjectLinks from '../../components/ProjectsDetails/ProjectLinks'
 import type { Project } from "../../types/projects.types"
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
+
+const isMobileProject = (project: Project) => {
+    const categoryLower = project.category.toLowerCase();
+    const titleLower = project.title.toLowerCase();
+    const subtitleLower = project.subtitle.toLowerCase();
+
+    return (
+        categoryLower.includes("mobile") ||
+        categoryLower.includes("app") ||
+        titleLower.includes("app") ||
+        subtitleLower.includes("mobile") ||
+        subtitleLower.includes("app") ||
+        project.technologies.some(tech =>
+            ["flutter", "dart", "react-native", "react native", "swift", "kotlin", "android", "ios"].includes(tech.toLowerCase())
+        )
+    );
+};
 
 const ProjectMediaInfo = ({ project }: { project: Project }) => {
     const initialMedia = project.video
@@ -27,25 +45,35 @@ const ProjectMediaInfo = ({ project }: { project: Project }) => {
         }
     };
 
+    const isMobile = isMobileProject(project);
+
     return (
         <div className="grid gap-8 lg:grid-cols-12 items-start">
             {/* Left Column: Media Player + Screenshots scrollbar */}
-            <div className="lg:col-span-7 flex flex-col gap-4">
-                <ProjectMediaUpper
+            <div className="lg:col-span-7 flex flex-col gap-4 w-full min-w-0">                {isMobile ? (
+                <ProjectMobileMedia
                     project={project}
-                    selectedMedia={activeMedia}
                     handleOpenLightbox={handleOpenLightbox}
                 />
-                <ProjectMediaLower
-                    project={project}
-                    clickedMedia={clickedMedia}
-                    setClickedMedia={setClickedMedia}
-                    setHoveredMedia={setHoveredMedia}
-                />
+            ) : (
+                <>
+                    <ProjectMediaUpper
+                        project={project}
+                        selectedMedia={activeMedia}
+                        handleOpenLightbox={handleOpenLightbox}
+                    />
+                    <ProjectMediaLower
+                        project={project}
+                        clickedMedia={clickedMedia}
+                        setClickedMedia={setClickedMedia}
+                        setHoveredMedia={setHoveredMedia}
+                    />
+                </>
+            )}
             </div>
 
             {/* Right Column: Info card + Links */}
-            <div className="lg:col-span-5 flex flex-col gap-4">
+            <div className="lg:col-span-5 flex flex-col gap-4 w-full">
                 <ProjectInfo project={project} />
             </div>
 
