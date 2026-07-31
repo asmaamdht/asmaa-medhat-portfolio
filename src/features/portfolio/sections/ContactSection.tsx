@@ -1,5 +1,5 @@
 import ContactForm from "../components/Contact/ContactForm";
-import workImage from "@/assets/images/me_work.png";
+import workImage from "/images/profile/me_work.png";
 import SectionSubHeader from "@/components/common/heading/SectionSubHeader";
 
 const ContactSection = () => {

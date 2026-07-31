@@ -4,7 +4,7 @@
         "role": "Frontend Developer",
         "company": "Galaxies Technology",
         "period": "2026 - Present",
-        "description": "Building scalable vendor dashboards using React, TypeScript, TanStack Query, Axios and Tailwind CSS.",
+        "description": "Building scalable vendor store and food delivery dashboards. Implemented Progressive Web App (PWA) support, Firebase push notifications, live real-time order tracking, and interactive Google Maps integration to define store delivery boundaries.",
         "icon": "company"
     },
     {

@@ -13,6 +13,20 @@ import {
     Lock,
     LayoutDashboard,
     Calendar,
+    RefreshCw,
+    Sparkles,
+    MessageSquare,
+    ClipboardCheck,
+    Bell,
+    CreditCard,
+    Search,
+    FileText,
+    Sliders,
+    Calculator,
+    Palette,
+    Globe,
+    Moon,
+    MapPin,
 } from "lucide-react";
 
 export const projectFeatureIcons: Record<string, LucideIcon> = {
@@ -37,4 +51,63 @@ export const projectFeatureIcons: Record<string, LucideIcon> = {
     "Roles & Permissions": ShieldCheck,
     Settings: Settings2,
     "Responsive Dashboard": Smartphone,
+
+    // EvTick ecosystem features
+    "Unified Auth & Login with Role-based Redirection": Lock,
+    "Organizer Dashboard for Creating and Managing Events": LayoutDashboard,
+    "Admin Dashboard for Event Review, Approvals, and Rejections": ClipboardCheck,
+    "Real-time Data Sync with EvTick Web & App using Firebase": RefreshCw,
+    "AI-Assisted Event Generation and Content Creation": Sparkles,
+    "Interactive Analytics & Event Sales Reports": BarChart3,
+    "Attendee & User Management Panel": Users,
+    "Real-time Chat Messaging & Notifications System": MessageSquare,
+
+    // EvTickWeb / EvTickApp mapping mappings
+    "Browse Events": Search,
+    "Ticket Booking": ShoppingCart,
+    "Online Payments": CreditCard,
+    "AI Assistant": Sparkles,
+    "Real-time Chat": MessageSquare,
+    "Push Notifications": Bell,
+
+    // Printly Features
+    "File Upload & PDF Processing": FileText,
+    "Print Specifications Configurator": Sliders,
+    "Real-time Cost Estimation": Calculator,
+    "E-Commerce Shop & Stationery Catalog": Store,
+    "Shopping Cart & Checkout": ShoppingCart,
+    "Custom UI/UX Design Implementation": Palette,
+
+    // ModaTeck Features
+    "Authentication & Login (Fake Store API)": Lock,
+    "Product Catalog & Category Filtering": Sliders,
+    "Interactive Shopping Cart": ShoppingCart,
+    "User Profile Display": Users,
+    "Localization (English/Arabic Support)": Globe,
+    "Theme Customization (Dark/Light Mode)": Moon,
+
+    // Food Restaurant Features
+    "Responsive Multi-Page Design": Smartphone,
+    "Interactive Food Menu & Filtering": Sliders,
+    "Reusable React Components": Settings2,
+    "Smooth Client-side Navigation": RefreshCw,
+    "Figma Design Implementation": Palette,
+    "Table Booking System Simulation": CalendarClock,
+
+    // Portfolio Features
+    "Interactive Projects Showroom & Filtering": Sliders,
+    "Responsive Layout & Glassmorphism Design": Smartphone,
+    "Dynamic Project Details & Media Gallery": Palette,
+    "Technical Skills Showcase": Settings2,
+    "Validated Contact Form with Zod & React Hook Form": ShieldCheck,
+    "Smooth Animations & Premium Micro-interactions": Sparkles,
+
+    // Moheet Dashboard Features
+    "PWA Support & Offline Capabilities": Smartphone,
+    "Firebase Cloud Messaging (FCM) Push Notifications": Bell,
+    "Real-time Orders Monitoring & Management": RefreshCw,
+    "Interactive Map & Delivery Boundary Configuration": MapPin,
+    "Vendor Store & Inventory Management": Store,
+    "Role-based Authentication & Access Control": Lock,
+    "Live Analytics & Order Statistics": BarChart3,
 };

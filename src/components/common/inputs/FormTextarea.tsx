@@ -9,7 +9,7 @@ const FormTextarea = ({ placeholder, rows = 6, registration, error }: FormFieldP
                 rows={rows}
                 placeholder={placeholder}
                 {...registration}
-                className="w-full resize-none rounded-lg  glass-bg px-5 py-4 text-text placeholder-text-muted/60 outline-none transition duration-300 focus:border-primary"
+                className="w-full resize-none rounded-lg  glass-bg px-5 py-4 text-text placeholder-text-muted/60 outline-none transition duration-300 focus:border-primary no-scrollbar"
             />
 
             {error && (

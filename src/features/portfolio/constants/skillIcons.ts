@@ -18,6 +18,9 @@ import {
     SiVite,
     SiSwagger,
     SiSass,
+    SiReactrouter,
+    SiReacthookform,
+    SiZod,
 } from "react-icons/si";
 
 import { SiCss } from "react-icons/si";
@@ -70,4 +73,7 @@ export const skillIcons = {
     "Web App Manifest": { icon: TbApi, color: "#F59E0B" },
     "Offline Support": { icon: MdWifiOff, color: "#EF4444" },
     "Installable App": { icon: MdOutlineInstallDesktop, color: "#8B5CF6" },
+    "React Router": { icon: SiReactrouter, color: "#CA4245" },
+    "React Hook Form": { icon: SiReacthookform, color: "#EC5990" },
+    "Zod": { icon: SiZod, color: "#3E74C4" },
 };

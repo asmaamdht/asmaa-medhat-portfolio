@@ -24,11 +24,7 @@ interface ProjectMediaUpperProps {
     handleOpenLightbox: (imageUrl: string) => void;
 }
 
-const ProjectMediaUpper = ({
-    project,
-    selectedMedia,
-    handleOpenLightbox,
-}: ProjectMediaUpperProps) => {
+const ProjectMediaUpper = ({ project, selectedMedia, handleOpenLightbox }: ProjectMediaUpperProps) => {
     const [playingUrl, setPlayingUrl] = useState<string | null>(null);
 
     return (

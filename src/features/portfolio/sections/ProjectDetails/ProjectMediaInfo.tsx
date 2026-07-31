@@ -12,12 +12,14 @@ const isMobileProject = (project: Project) => {
     const titleLower = project.title.toLowerCase();
     const subtitleLower = project.subtitle.toLowerCase();
 
+    const hasAppWord = (str: string) => /\bapp\b/.test(str);
+
     return (
         categoryLower.includes("mobile") ||
-        categoryLower.includes("app") ||
-        titleLower.includes("app") ||
+        hasAppWord(categoryLower) ||
+        hasAppWord(titleLower) ||
         subtitleLower.includes("mobile") ||
-        subtitleLower.includes("app") ||
+        hasAppWord(subtitleLower) ||
         project.technologies.some(tech =>
             ["flutter", "dart", "react-native", "react native", "swift", "kotlin", "android", "ios"].includes(tech.toLowerCase())
         )
