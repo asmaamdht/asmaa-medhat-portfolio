@@ -44,11 +44,12 @@ const ProjectCard = ({ project }: Props) => {
 
                 </div>
 
-                <ProjectArrow
-                    onClick={() =>
-                        navigate(`/projects/${project.id}`)
-                    }
-                />
+                <div className="shrink-0">
+                    <ProjectArrow
+                        onClick={() => navigate(`/projects/${project.id}`)}
+                    />
+                </div>
+
 
             </div>
 

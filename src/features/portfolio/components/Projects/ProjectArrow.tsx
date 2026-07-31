@@ -16,6 +16,7 @@ const ProjectArrow = ({ onClick }: Props) => {
                 transition-all duration-300
                 hover:rotate-45
                 cursor-pointer
+                
             "
         >
             <FaArrowUp className="rotate-45" />

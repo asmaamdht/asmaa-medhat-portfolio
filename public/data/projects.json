@@ -17,7 +17,7 @@
         ],
         "description": "A comprehensive administration and vendor management dashboard built for Moheet, a mobile food delivery and store ordering application similar to Talabat. I was responsible for implementing the complete frontend functionality, including the Progressive Web App (PWA) setup for mobile/desktop installation and offline capabilities, Firebase Cloud Messaging (FCM) push notifications for real-time order alerts, and dynamic real-time tracking for vendor order processing. The dashboard also integrates an interactive map component to define and restrict store coverage areas, establishing maximum shipping and delivery limits. Features complete inventory control, vendor store management, and live order statistics.",
         "role": "Frontend Developer",
-        "duration": "7 Months",
+        "duration": "8 Months",
         "category": "Company",
         "company": "Galaxies Technology",
         "technologies": [
@@ -93,56 +93,6 @@
         "isConfidential": false
     },
     {
-        "id": 2,
-        "title": "Riwak",
-        "subtitle": "E-Commerce Furniture Platform",
-        "image": "/images/projects/RIWAK-G5/hero.png",
-        "images": [
-            "/images/projects/RIWAK-G5/hero.png",
-            "/images/projects/RIWAK-G5/service.png",
-            "/images/projects/RIWAK-G5/about.png",
-            "/images/projects/RIWAK-G5/products.png",
-            "/images/projects/RIWAK-G5/details.png",
-            "/images/projects/RIWAK-G5/check.png",
-            "/images/projects/RIWAK-G5/login.png",
-            "/images/projects/RIWAK-G5/register.png",
-            "/images/projects/RIWAK-G5/cart.png",
-            "/images/projects/RIWAK-G5/checkout.png",
-            "/images/projects/RIWAK-G5/confirm.png",
-            "/images/projects/RIWAK-G5/track.png",
-            "/images/projects/RIWAK-G5/contact.png",
-            "/images/projects/RIWAK-G5/person.png"
-        ],
-        "description": "An interactive e-commerce platform for furniture, developed as an ITI project. It features customer-facing pages to browse and filter furniture products, view detailed item descriptions, manage a shopping cart, place orders, track delivery, and make online payments. It includes dual dashboards: one for administrators to manage products, orders, sales reports, and customer messages, and another for customers to manage their profile, orders, and messages.",
-        "role": "Frontend Developer",
-        "duration": "3 Weeks",
-        "category": "ITI Project",
-        "company": "Information Technology Institute (ITI)",
-        "technologies": [
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "Bootstrap",
-            "JS Animation",
-            "JSON"
-        ],
-        "features": [
-            "Dual Dashboards (Admin & Customer)",
-            "Products & Categories Management",
-            "Real-time Sales Reports",
-            "Customer Support Messaging",
-            "Shopping Cart & Checkout",
-            "Online Payment Integration",
-            "Order Tracking",
-            "Interactive JS Animations",
-            "Local JSON Data Storage"
-        ],
-        "githubUrl": "https://github.com/asmaamdht/RIWAK-G5",
-        "liveUrl": "https://riwak-g5.vercel.app",
-        "video": "https://res.cloudinary.com/l71f0pi3/video/upload/v1785237234/1757436216615_qodyxi.mp4",
-        "isConfidential": false
-    },
-    {
         "id": 3,
         "title": "EvtickWeb",
         "subtitle": "Event Booking Platform",
@@ -192,7 +142,57 @@
         ],
         "githubUrl": "https://github.com/asmaamdht/EvTick-Web",
         "liveUrl": "https://evtick.vercel.app/",
-        "video": "",
+        "video": "https://res.cloudinary.com/l71f0pi3/video/upload/v1785491891/evTickWeb_pcljeb.mp4",
+        "isConfidential": false
+    },
+    {
+        "id": 2,
+        "title": "Riwak",
+        "subtitle": "E-Commerce Furniture Platform",
+        "image": "/images/projects/RIWAK-G5/hero.png",
+        "images": [
+            "/images/projects/RIWAK-G5/hero.png",
+            "/images/projects/RIWAK-G5/service.png",
+            "/images/projects/RIWAK-G5/about.png",
+            "/images/projects/RIWAK-G5/products.png",
+            "/images/projects/RIWAK-G5/details.png",
+            "/images/projects/RIWAK-G5/check.png",
+            "/images/projects/RIWAK-G5/login.png",
+            "/images/projects/RIWAK-G5/register.png",
+            "/images/projects/RIWAK-G5/cart.png",
+            "/images/projects/RIWAK-G5/checkout.png",
+            "/images/projects/RIWAK-G5/confirm.png",
+            "/images/projects/RIWAK-G5/track.png",
+            "/images/projects/RIWAK-G5/contact.png",
+            "/images/projects/RIWAK-G5/person.png"
+        ],
+        "description": "An interactive e-commerce platform for furniture, developed as an ITI project. It features customer-facing pages to browse and filter furniture products, view detailed item descriptions, manage a shopping cart, place orders, track delivery, and make online payments. It includes dual dashboards: one for administrators to manage products, orders, sales reports, and customer messages, and another for customers to manage their profile, orders, and messages.",
+        "role": "Frontend Developer",
+        "duration": "3 Weeks",
+        "category": "ITI Project",
+        "company": "Information Technology Institute (ITI)",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Bootstrap",
+            "JS Animation",
+            "JSON"
+        ],
+        "features": [
+            "Dual Dashboards (Admin & Customer)",
+            "Products & Categories Management",
+            "Real-time Sales Reports",
+            "Customer Support Messaging",
+            "Shopping Cart & Checkout",
+            "Online Payment Integration",
+            "Order Tracking",
+            "Interactive JS Animations",
+            "Local JSON Data Storage"
+        ],
+        "githubUrl": "https://github.com/asmaamdht/RIWAK-G5",
+        "liveUrl": "https://riwak-g5.vercel.app",
+        "video": "https://res.cloudinary.com/l71f0pi3/video/upload/v1785237234/1757436216615_qodyxi.mp4",
         "isConfidential": false
     },
     {
@@ -308,7 +308,7 @@
     {
         "id": 6,
         "title": "EvTick Dashboard",
-        "subtitle": "Admin & Organizer Management Platform for Event Planning",
+        "subtitle": "Admin & Organizer Management Platform for Event Ticketing",
         "image": "/images/projects/evTick/evTickDash/cover1.png",
         "images": [
             "/images/projects/evTick/evTickDash/login.png",
@@ -356,7 +356,7 @@
         ],
         "githubUrl": "https://github.com/asmaamdht/EvTick-Dashboard",
         "liveUrl": "https:evtick-dashboard-five.vercel.app",
-        "video": "",
+        "video": "https://res.cloudinary.com/l71f0pi3/video/upload/v1785497151/0731_4_4_yiyxk4.mp4",
         "isConfidential": false
     },
     {
@@ -531,7 +531,7 @@
         ],
         "githubUrl": "https://github.com/asmaamdht/asmaa-medhat-portfolio",
         "liveUrl": "https://asmaa-medhat-portfolio.vercel.app",
-        "video": "",
+        "video": "https://res.cloudinary.com/l71f0pi3/video/upload/v1785489545/0731_1_etxvrm.mp4",
         "isConfidential": false
     }
 ]
