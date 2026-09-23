@@ -6,7 +6,7 @@ const Header = () => {
 
     const isLinkActive = (href: string) => {
         const [path, hash] = href.split("#");
-        
+
         if (hash === "projects") {
             return location.pathname === "/projects" || (location.pathname === "/" && location.hash === "#projects");
         }
@@ -19,7 +19,7 @@ const Header = () => {
         if (hash === "contact") {
             return location.pathname === "/" && location.hash === "#contact";
         }
-        
+
         return location.pathname === path && location.hash === (hash ? `#${hash}` : "");
     };
 
@@ -43,7 +43,7 @@ const Header = () => {
                                     className={`transition-colors duration-300 ${active
                                         ? "text-primary before:content-['('] after:content-[')'] before:mr-1 after:ml-1"
                                         : "text-text hover:text-primary before:content-['('] after:content-[')'] before:mr-1 after:ml-1 before:invisible after:invisible"
-                                    }`}
+                                        }`}
                                 >
                                     {link.label}
                                 </Link>

@@ -16,7 +16,7 @@ const HeroContent = () => {
             </svg>
 
             <div className="mt-10 flex items-center gap-3">
-                <span className="text-4xl font-bold" style={{ fontFamily: "'Baloo 2', cursive", color: "#0f4a45" }}>02</span>
+                <span className="text-4xl font-bold" style={{ fontFamily: "'Baloo 2', cursive", color: "#0f4a45" }}>04</span>
                 <span className="text-xs font-semibold uppercase leading-tight">
                     Years
                     <br />
